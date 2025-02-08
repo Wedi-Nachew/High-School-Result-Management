@@ -1,0 +1,12 @@
+# Build artifacts and compiled files
+/build/
+/reports/
+
+# Log files and temporary files
+*.log
+*.tmp
+
+
+#Generated or runtime CSV files
+*.csv
+
