@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="qhhsfQiBcR4DBB_TaN2P">
+    <mxGraphModel dx="1588" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="316" y="185" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-5" target="yNYJ2VOpxZXCseDoY9mU-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="356" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-3" target="yNYJ2VOpxZXCseDoY9mU-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-3" value="User selects option&lt;div&gt;&quot;Delete Student&quot;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="256" y="305" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-1" target="yNYJ2VOpxZXCseDoY9mU-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="275" as="targetPoint" />
+            <mxPoint x="331" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-5" value="Display Main Menu" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="261" y="245" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-6" target="yNYJ2VOpxZXCseDoY9mU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-6" value="Prompt for student name" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="256" y="385" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-8" target="yNYJ2VOpxZXCseDoY9mU-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-8" value="Search for student record&lt;div&gt;(via Result/FileHandler)&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="256" y="463" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-10" target="yNYJ2VOpxZXCseDoY9mU-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-17" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yNYJ2VOpxZXCseDoY9mU-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-10" target="yNYJ2VOpxZXCseDoY9mU-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-16" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yNYJ2VOpxZXCseDoY9mU-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.181" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is the&lt;/div&gt;&lt;div&gt;&amp;nbsp;student&lt;/div&gt;&lt;div&gt;found?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="289" y="542" width="85" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-12" target="yNYJ2VOpxZXCseDoY9mU-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333.5999999999999" y="785.1090909090908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-12" value="Display &quot;Student deleted&quot; confirmation" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;arcSize=10;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="271" y="685" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-14" target="yNYJ2VOpxZXCseDoY9mU-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.5" y="603.75" as="sourcePoint" />
+            <mxPoint x="471" y="786.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-14" value="Display &quot;Student not&lt;div&gt;found&quot; message&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="446" y="565.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yNYJ2VOpxZXCseDoY9mU-23" target="yNYJ2VOpxZXCseDoY9mU-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-23" value="Return to Main Menu" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;arcSize=10;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="271" y="775" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yNYJ2VOpxZXCseDoY9mU-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="318.5" y="841" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
