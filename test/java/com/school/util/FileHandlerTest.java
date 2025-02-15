@@ -13,7 +13,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.school.model.Student;
-// import src.main.java.com.school.util.FileHandler;
 
 public class FileHandlerTest {
     
