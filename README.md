@@ -42,7 +42,8 @@ HighSchoolResultManagement/
 │   │   ├── com/  
 │   │   │   ├── school/  
 │   │   │   │   ├── service/                 # Unit tests for service layer  
-│   │   │   │   ├── util/                    # Unit tests for utilities  
+│   │   │   │   ├── model/                   # Unit tests for models  
+|   |   |   |   ├── util/                    # Unit tests for utilities  
 │── build/                                   # Compiled class files  
 │── lib/                                     # External libraries (if any)  
 │── docs/                                    # UML diagrams, reports, documentation  
@@ -65,14 +66,84 @@ HighSchoolResultManagement/
    ```bash
    git clone https://github.com/Wedi-Nachew/High-School-Result-Management.git
    ```
+2. **Download Dependencies:**  
+   Place the required libraries (e.g., `junit-4.13.2.jar` and `hamcrest-core-1.3.jar`) into the `lib/` directory.
+
+3. **Verify Project Structure:**  
+   Ensure your directories match the structure outlined above.
 
 ## Build and Test
 
 ### Using Apache Ant
-- **Compile the project:** ``ant compile``
-- **Compile the test cases classes:** ``ant compile-test``
-- **Run JUnit tests:** ``ant compile``
+- **Compile the project:** 
+```bash
+  ant compile
+```
+- **Compile the test cases classes:** 
+```bash
+  ant compile-test
+```
+- **Run JUnit tests:** 
     - Test results will be displayed in the terminal.
     - Detailed XML reports will be saved in the reports/test-results/ directory.
-- **Run the Project:** ``ant run``
-- **Clean Build Artifacts:** ``ant clean``
+```bash
+  ant test
+```
+- **Run the Project:** 
+```bash
+  ant run
+```
+- **Run the Project:** 
+```bash
+  ant run
+```
+- **Clean Build Artifacts:** 
+```bash
+  ant clean
+```
+
+## Branching Strategy & Collaboration
+
+### **Main Branches:**
+
+- **`main`:**  
+  Contains stable, production-ready code.
+
+- **`models`:**  
+  Serves as the branch where modeling of the system are carried out before merging.
+
+- **`develop`:**  
+  Serves as the branch where implementation of the system are carried out merging.
+
+- **`test`:**  
+  Serves as the branch where testing of the system are carried out before merging.
+
+### **Feature Branches:**
+
+- **Naming Convention:**  
+  Use `feature/<username>-<feature-description>` (e.g., `test/durye-util`).
+
+- **Workflow:**  
+  - Create a new branch from `develop`:
+    ```bash
+    git checkout -b feature/<username>-<feature-description>
+    ```
+  - Commit frequently with meaningful messages.
+  - Push your branch to GitHub:
+    ```bash
+    git push origin feature/<username>-<feature-description>
+    ```
+  - Merge into `develop` after peer review.
+
+## .gitignore
+
+The `.gitignore` file (located at the project root) is configured to exclude build artifacts, IDE-specific files, OS-generated files, and temporary files. Refer to this file for details.
+
+## Contributors
+
+- **Team Members:** 
+  - Filmon Gebrelibanos     UGR/170182/12
+  - Tekle Beyene            UGR/170122/12
+  - Mehari Desta            EITM/TUR189988/16
+
+
