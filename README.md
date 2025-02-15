@@ -93,9 +93,9 @@ HighSchoolResultManagement/
 ```bash
   ant run
 ```
-- **Run the Project:** 
+- **Package the project (create a JAR file):** 
 ```bash
-  ant run
+  ant package
 ```
 - **Clean Build Artifacts:** 
 ```bash
@@ -133,7 +133,7 @@ HighSchoolResultManagement/
     ```bash
     git push origin feature/<username>-<feature-description>
     ```
-  - Merge into `develop` after peer review.
+  - Merge into `main` after peer review.
 
 ## .gitignore
 

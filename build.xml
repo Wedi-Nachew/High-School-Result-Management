@@ -19,13 +19,7 @@
 
     <!-- Compile main source code -->
     <target name="compile" depends="init">
-        <javac srcdir="${src.dir}" destdir="${classes.dir}">
-            <classpath>
-                <fileset dir="${lib.dir}">
-                    <include name="*.jar"/>
-                </fileset>
-            </classpath>
-        </javac>
+        <javac srcdir="${src.dir}" destdir="${classes.dir}" />
     </target>
 
     <!-- Compile test source code -->
